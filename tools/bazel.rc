@@ -13,7 +13,7 @@ build --strip=never
 build --incompatible_enable_cc_toolchain_resolution
 
 # Using clang as the compiler
-build --repo_env=CC=gcc
+build --repo_env=CC=clang
 
 # whisper.cpp use C++11, hence compiling with C++11
 build --cxxopt=-std=c++11 --host_cxxopt=-std=c++11
